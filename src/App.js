@@ -12,7 +12,7 @@ import ParticlesComponent from './utils/particles';
 function App() {
   
 const location= useLocation();
- const renderParticleSim = location.pathname ==='/nimbusart'; 
+ const renderParticleSim = location.pathname ==='/nimbusart' || location.pathname ==='/nimbusart/'; 
   return (
     
     <div className="App">

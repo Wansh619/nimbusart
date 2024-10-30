@@ -12,7 +12,7 @@ import ParticlesComponent from './utils/particles';
 function App() {
   
 const location= useLocation();
- const renderParticleSim = location.pathname ==='/nimbusart' || location.pathname ==='/nimbusart/'; 
+ const renderParticleSim = location.pathname ==='/';
   return (
     
     <div className="App">
@@ -30,7 +30,7 @@ const location= useLocation();
 
 
       <Routes>
-        <Route index path='/nimbusart' element={<Home/>}/>
+        <Route index path='/' element={<Home/>}/>
         <Route  path='/about' element={<About/>}/>
         <Route  path='/contact_me' element={<Contact/>}/>
         <Route  path='/resume' element={<Resume/>}/>

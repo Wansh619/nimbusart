@@ -1,0 +1,77 @@
+.about__container{
+    width: 100%;
+
+    
+    color: white;
+
+    font-size: x-large;
+
+    box-sizing: border-box;
+    // flex-direction: row;
+    &__content{
+        width: 60%;
+        // display: block;
+        &__header{
+            font-size: 1.6em;
+            color:var(--yellow-theme-main-color);
+            margin: 30px 0px;
+        }
+
+
+        ul{
+        list-style: none;
+            li{
+            margin: 5px;
+            b{
+                color: var(--yellow-theme-main-color);
+            }
+        }
+    }
+
+    }
+
+    &__logo{
+        
+        z-index: -1;
+        position: absolute;
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; 
+        width: 100%;
+        height: 100%;
+        
+        
+        color: var(--yellow-theme-main-color);
+        &__icon{    
+                align-items: center;
+                fill: none;
+                stroke: var(--yellow-theme-main-color); /* Set your stroke color here */
+                stroke-width: 0.5;
+                animation: draw 1s infinite forwards   ; /* Stroke animates for 2s, fill begins after */
+                stroke-dasharray: 600; /* Large enough to cover entire path length */
+                stroke-dashoffset: 600; /* Initially hides stroke */
+              
+              
+            }
+            
+        }
+    }
+
+    @keyframes draw {
+        from {
+          stroke-dashoffset: 1000;
+        }
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+      
+      @keyframes fill {
+        from {
+          fill: transparent;
+        }
+        to {
+          fill: var(--yellow-theme-main-color); /* Fill color of your choice */
+        }
+      }
+      

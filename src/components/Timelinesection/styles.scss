@@ -1,0 +1,31 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-left: 2px solid var(--yellow-theme-main-color);
+  }
+  
+  .timeline-element {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .timeline-header {
+    font-size: 1.5em;
+    margin: 0;
+    color: var(--yellow-theme-main-color);
+  }
+  
+  .timeline-time {
+    font-size: 1em;
+    margin: 5px 0;
+    color: var(--yellow-theme-main-color);
+  }
+  
+  .timeline-course {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: white;
+  }
+  

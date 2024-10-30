@@ -1,0 +1,88 @@
+{
+    "filestruct": {
+      "ROOT": ["Frontend", "Backend", "AI-ML","Languages","Others"],
+      "Frontend": ["HTML", "CSS", "REACT"],
+      "Backend": ["DJANGO", "NODEJS"],
+      "AI-ML": ["NUMPY", "PANDAS", "TENSORFLOW"],
+      "Languages":["Python","C/C++","JS","Bash","SQL"],
+      "Others":["Linux","Docker"],
+      "HTML": [],
+      "CSS": [],
+      "JS": [],
+      "REACT": [],
+      "DJANGO": [],
+      "NODEJS": [],
+      "NUMPY": [],
+      "PANDAS": [],
+      "TENSORFLOW": [],
+      "Python":[],
+      "C/C++":[],
+      "Bash":[],
+      "SQL":[],
+      "Docker":[],
+      "Linux":[]
+    },
+    "filecontent": {
+      "HTML": {
+        "content": "HTML (HyperText Markup Language) is the standard language for creating and structuring content on the web. It uses a series of elements, or tags, to define parts of a webpage like headings, paragraphs, links, images, and more. HTML acts as the backbone of web development, allowing developers to organize content logically and semantically. By structuring content with HTML, websites become accessible and easy to navigate, making it a fundamental tool for building a web portfolio.",
+        "score": 9.5
+      },
+      "CSS": {
+        "content": "CSS, or Cascading Style Sheets, is essential for designing visually appealing websites. It controls layout, color, typography, spacing, animations, and responsive design, enhancing the HTML structure and making it user-friendly and attractive. In a portfolio, CSS brings life to the content, creating a polished, professional look with features like hover effects, animations, and transitions that make the user experience interactive and engaging. Using tools like Flexbox, Grid, and media queries, CSS ensures the portfolio is responsive across different devices, presenting your work effectively on any screen size.",
+        "score": 7
+      },
+      "JS": {
+        "content": "JavaScript is a versatile, high-level programming language primarily used for creating dynamic and interactive content on web pages. It enables developers to build responsive interfaces, manipulate HTML and CSS elements, handle events, and perform asynchronous operations. Widely supported across all browsers, JavaScript powers front-end frameworks like React, Vue, and Angular, and can also be used on the server side with Node.js, making it essential for full-stack development.",
+        "score": 7
+      },
+      "NODEJS": {
+        "content": "Node.js is a powerful, open-source, server-side runtime environment built on Chrome's V8 JavaScript engine. It enables developers to build scalable, high-performance network applications using JavaScript on the server. Known for its non-blocking, event-driven architecture, Node.js is particularly effective for handling concurrent requests, making it ideal for real-time applications such as chat applications, online games, and streaming services. With a vast ecosystem of libraries via npm (Node Package Manager), Node.js offers extensive support for developing full-stack applications, API integrations, and more.",
+        "score": 5
+      },
+      "REACT": {
+        "content": "Proficient in building dynamic, responsive user interfaces using React. Experienced in managing state with hooks, optimizing component performance, and integrating Canvas elements for interactive visuals. Developed projects with a focus on user experience, including animated progress bars, custom hooks, and event-driven interactions to deliver engaging, efficient applications.",
+        "score": 8
+      },
+      "DJANGO": {
+        "content": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. Leveraging Django, I build efficient backend architectures, manage databases, and create RESTful APIs, ensuring robust, scalable, and high-performing applications.",
+        "score": 7.5
+      },
+      "NUMPY": {
+        "content": "A powerful library for numerical computing in Python, NumPy provides support for multi-dimensional arrays and matrices, along with a large collection of mathematical functions. It is widely used for tasks such as data manipulation, statistical analysis, and scientific computing. With its ability to perform complex calculations efficiently, NumPy is a foundational tool in data science, machine learning, and engineering workflows.",
+        "score": 6.5
+      },
+      "PANDAS": {
+        "content": "Pandas is a powerful open-source data analysis and manipulation library for Python. It provides data structures such as Series (one-dimensional) and DataFrames (two-dimensional) that allow for efficient data handling and analysis. With its rich functionality, Pandas enables users to perform operations like data cleaning, aggregation, transformation, and visualization. Its intuitive syntax and integration with other scientific libraries, like NumPy and Matplotlib, make it an essential tool for data scientists and analysts, streamlining the process of working with structured data.",
+        "score": 7
+      },
+      "TENSORFLOW": {
+        "content": "TensorFlow is an open-source machine learning framework developed by Google, widely used for building and training deep learning models. It provides a flexible and comprehensive ecosystem of tools, libraries, and community resources that allow developers to create robust machine learning applications. TensorFlow supports a variety of platforms, including CPUs, GPUs, and TPUs, making it suitable for both research and production environments. With its high-level API, Keras, TensorFlow simplifies the model-building process, enabling quick prototyping and experimentation. The framework is utilized in diverse applications, ranging from natural language processing and computer vision to reinforcement learning and beyond.",
+        "score": 6.5
+      },
+      "Python": {
+        "content":"Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming, making it versatile for various applications. Python is widely used in web development, data analysis, artificial intelligence, scientific computing, and automation. Its extensive standard library and active community contribute to a rich ecosystem of frameworks and tools, such as Django for web development and TensorFlow and PyTorch for machine learning. Python's emphasis on code readability and ease of use makes it an ideal choice for both beginners and experienced developers.",
+        "score": 8
+      },
+      "C/C++": {
+        "content": "C and C++ are powerful, high-performance programming languages widely used in system/software development, game programming, embedded systems, and high-performance applications.",
+        "score": 8.5
+      },
+      "Bash": {
+        "content": "Bash is a command-line interpreter and scripting language that serves as the default shell for many Unix-based systems, including Linux and macOS. It provides a robust environment for executing commands, managing files, and automating tasks through scripting. With features like job control, command history, and shell functions, Bash allows users to efficiently execute complex workflows and system administration tasks. Its powerful scripting capabilities enable users to write scripts for automation, making it an essential tool for developers and system administrators alike.",
+        "score": 5
+      },
+      "SQL": {
+        "content": "SQL is a standardized programming language designed for managing and manipulating relational databases. It enables users to perform various operations, including querying data, updating records, and managing database schemas. SQL is essential for data retrieval and analysis, allowing for the creation of complex queries to filter, sort, and aggregate data efficiently. It is widely used in various applications, from web development to data analysis, making it a fundamental skill for professionals in the fields of data science, software development, and database administration.",
+        "score": 7
+      },
+      "Docker": {
+        "content": "Docker is an open-source platform that automates the deployment, scaling, and management of applications within lightweight containers. It enables developers to package applications and their dependencies into a single, portable container that can run consistently across different computing environments. By utilizing containerization, Docker enhances the efficiency of resource utilization, simplifies application deployment, and facilitates continuous integration and delivery (CI/CD) processes. Docker's robust ecosystem includes tools for orchestration (like Kubernetes), image repositories (such as Docker Hub), and a vibrant community, making it a vital technology for modern software development.",
+        "score": 7
+      },
+      "Linux": {
+        "content": "Linux is a powerful, open-source operating system based on the Unix architecture, widely used for servers, desktops, and embedded systems. Known for its stability, security, and flexibility, Linux allows users to modify and distribute the source code. It supports a variety of programming languages and development tools, making it a popular choice for developers and system administrators. The Linux ecosystem includes various distributions, such as Ubuntu, CentOS, and Fedora, each tailored for different user needs and preferences. Its command-line interface offers robust control over system processes, file management, and network configuration, while its vast community contributes to a wealth of resources, support, and applications.",
+        "score": 8.5
+      }
+    }
+  }
+  

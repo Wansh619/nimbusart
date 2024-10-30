@@ -1,0 +1,94 @@
+
+{
+    "filestruct": {
+        "ROOT": ["Web Devlopment", "Machine Learning","Deep Learning","Others"],
+        "Web Devlopment":["Ecomm","Outpass","Weather app","Portfolio Website"],
+         "Machine Learning":["Car price prediction"],
+         "Deep Learning":["Posture reacognition"],
+         "Others":["Nirf data scraper"],
+         "Nirf data scraper":[],
+         "Car price prediction":[],
+         "Ecomm":[],
+         "Outpass":[],
+         "Weather app":[],
+         "Portfolio Website":[],
+         "Posture reacognition":[]
+         
+    },
+
+    "filecontent": {
+        "Nirf data scraper":{
+            "period":{
+                "from":"Mar 2024",
+                "to":"Apr 2024"
+            },
+            "content":"Utilizes a robust stack of Python, BeautifulSoup, PDF Plumber, Pytesseract, and OpenCV to deliver precise data extraction and parsing capabilities. Between March and April 2024, he implemented BeautifulSoup for effective web scraping and parsing of HTML content, streamlining data retrieval from web sources. With OpenCV and Tesseract OCR, he handled complex text extraction from PDF reports and images, achieving high accuracy even in challenging formats. Additionally, Wansh incorporated PDFPlumber to facilitate targeted extraction from both structured and unstructured PDFs, enabling detailed, accurate data acquisition across varied document types.",
+            "tech_stack":[],
+            "url":"https://github.com/Wansh619/Nirf_data_scrapper"
+
+        },
+        "Car price prediction":{
+            "period":{
+                "from":"Sept 2023",
+                "to":"Dec 2023"
+            },
+            "content":"A machine learning project focused on predicting showroom prices based on vehicle specifications using multiple regression models. The project employs Python as the core language, with libraries like NumPy and Pandas to streamline data preprocessing. Scikit-learn is utilized for implementing and fine-tuning various regression algorithms, while Matplotlib provides detailed visualizations of model performance and data trends. The integration of OpenCV supports any image-based data processing, further enhancing the model's accuracy and interpretability. Through systematic analysis, this project showcases the potential of machine learning in accurately estimating pricing from diverse and complex data points.",
+            "tech_stack":[],
+            "url":"https://github.com/Wansh619/Microsoft-engage-2021-car-price-prediction"
+
+        },
+        "Ecomm":{
+            "period":{
+                "from":"Sep 2022",
+                "to":"Sep 2022"
+            },
+            "content":"The E-Commerce Mobile Phone Website is a dynamic platform built using the Django framework, providing users with a seamless shopping experience for purchasing mobile phones. The primary feature of this website is the registration process, which incorporates OTP (One-Time Password) verification to enhance security and ensure that only verified users can access the purchasing functionalities. This feature not only protects user accounts but also helps in maintaining the integrity of the platform.",
+            "tech_stack":[],
+            "url":"https://github.com/Wansh619/Ecommerce_project"
+
+
+        },
+        "Outpass":{
+            "period":{
+                "from":"Sept 2023",
+                "to":"Oct 2023"
+            },
+            "content":"The Outpass app project is developed using Python and Django, designed to streamline the process of managing student requests for outside visits in an educational institute. The application mimics the traditional outpass system, providing a digital platform where students can apply for permission to leave campus for various reasons, such as internships, events, or personal matters.",
+            "tech_stack":[],
+            "url":"https://github.com/Wansh619/Outpass"
+
+        },
+        "Weather app":{
+            "period":{
+                "from":"Nov 2022",
+                "to":"Dec 2022"
+            },
+            "content":"A web application developed using Python Django that provides real-time weather information for various locations. Users can search for their desired city to get detailed weather forecasts, including temperature, humidity, wind speed, and weather conditions.",
+            "tech_stack":[],
+            "url":"https://github.com/Wansh619/weather-website"
+            
+
+        },
+        "Portfolio Website":{
+            "period":{
+                "from":"Sep 2024",
+                "to":"Oct 2024"
+            },
+            "content":"The Portfolio App is a dynamic and interactive platform designed to showcase personal projects, skills, and experiences in a visually appealing manner. Built using modern web technologies such as React, vanilla CSS, HTML, and Three.js, the app provides an engaging user experience and emphasizes creativity and innovation.",
+            "tech_stack":[],
+            "url":""
+
+        },
+        "Posture reacognition":{
+            "period":{
+                "from":"Jan 2024",
+                "to":"Feb 2024"
+            },
+            "content":"For a project focused on human posture recognition, I developed a machine learning model that achieved 94% accuracy in classifying various human postures using a minimalistic three-layer neural network. Leveraging OpenCV for efficient image processing and TensorFlow for model training and inference, I implemented grayscale imaging to reduce data complexity, which improved processing efficiency without compromising accuracy. By mapping human skeletal structures, the model was able to recognize and categorize different postures with high precision. This project demonstrates my ability to optimize machine learning workflows and implement innovative solutions to enhance model performance in computer vision tasks.",
+            "tech_stack":[],
+            "url":"https://github.com/Wansh619/Posture_recognition_rnn"
+
+        }
+
+    }
+}

@@ -1,0 +1,77 @@
+
+
+.circular-progress-container{
+    color: var(--yellow-theme-main-color);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    .circle{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+
+    }
+    .circle::before{
+        content: '';
+        position: absolute;
+        inset: 5px;
+        border-radius: 50%;
+        background: #000;
+        border:2px solid var(--dynamic-color);
+        opacity: 0.8;
+    }
+    .circle::after{
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: #000;
+        border:15px solid var(--dynamic-color);
+        
+        border-radius: 50%;
+        box-shadow: inset 0 5px 10px rgba(var(--dynamic-color),0.25),
+        0 10px 10px rgba(var(--dynamic-color),0.75),
+        0 -2px 2px rgba(#000, 0.5),
+        inset 0 4px 2px rgba(var(--dynamic-color),0.25),
+        inset 0 -2px 2px rgba(#000,0.5);
+    }
+    .number{
+        position: relative;
+        color: var(--dynamic-color);
+        z-index: 10;
+        line-height: 1em;
+        font-size: 2em;
+
+
+
+    }
+    .label{
+        position: relative;
+        color: var(--dynamic-color);
+        z-index: 10;
+        font-weight: 500;
+        font-size: 1.5em;
+        padding: 5px;
+        text-transform: uppercase;
+        line-height: 0.6em;
+
+        
+
+
+    }
+    
+}
+
+
+

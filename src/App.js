@@ -30,7 +30,7 @@ const location= useLocation();
 
 
       <Routes>
-        <Route index path='/' element={<Home/>}/>
+        <Route index path='/nimbusart' element={<Home/>}/>
         <Route  path='/about' element={<About/>}/>
         <Route  path='/contact_me' element={<Contact/>}/>
         <Route  path='/resume' element={<Resume/>}/>

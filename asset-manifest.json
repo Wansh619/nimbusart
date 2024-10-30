@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nimbusart/static/css/main.7f99f3df.css",
-    "main.js": "/nimbusart/static/js/main.9f5cff5f.js",
+    "main.js": "/nimbusart/static/js/main.a0a56c4e.js",
     "index.html": "/nimbusart/index.html",
     "main.7f99f3df.css.map": "/nimbusart/static/css/main.7f99f3df.css.map",
-    "main.9f5cff5f.js.map": "/nimbusart/static/js/main.9f5cff5f.js.map"
+    "main.a0a56c4e.js.map": "/nimbusart/static/js/main.a0a56c4e.js.map"
   },
   "entrypoints": [
     "static/css/main.7f99f3df.css",
-    "static/js/main.9f5cff5f.js"
+    "static/js/main.a0a56c4e.js"
   ]
 }

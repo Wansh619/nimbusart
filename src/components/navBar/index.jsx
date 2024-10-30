@@ -25,7 +25,7 @@ const data=[
 ];
 const Menu= data.map((item,key)=> {
     return(
-    <li key={key} className="navbar__container__menu__item">
+    <li key={key} className=" col-12 col-sm-6 col-md-4 col-lg-3  navbar__container__menu__item">
         <Link className="navbar__container__menu__item__link" to={item.to}>
                 {item.label}
         </Link>

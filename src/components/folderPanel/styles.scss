@@ -12,6 +12,7 @@
     flex-direction: row;
     padding: 20px 50px;
     box-sizing: border-box;
+   
     
     &__navbar{
         width: 6%;
@@ -80,7 +81,7 @@
     }
     &__name{
        align-items: center;
-       font-size: x-large;
+       font-size: large;
     }
 }
 .fileitem__container:hover{
@@ -94,6 +95,7 @@
 .filecontent__container{
     
     
+    padding-bottom: 100px;
     &__header{
         width: 100%;
         font-size: xx-large;
@@ -105,7 +107,7 @@
         width: 70%;
         margin: 30px;
        color: var(--yellow-theme-main-color);
-       font-size: x-large;
+       font-size: large;
 
 
         h2{

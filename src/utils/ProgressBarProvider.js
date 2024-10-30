@@ -14,7 +14,7 @@ useEffect(() => {
       const interval = setInterval(() => {
         setValue((prevValue) => {
           if (prevValue < valueEnd) {
-            return prevValue + 1; 
+            return prevValue + 5; 
           } else {
             clearInterval(interval); 
             return prevValue;

@@ -8,7 +8,7 @@ import './styles.scss';
 const data=[
     {
         label:'HOME',
-        to: '/'
+        to: '/nimbusart'
     },
     {
         label:'ABOUT US',

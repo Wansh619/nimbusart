@@ -81,7 +81,11 @@ function Diamond({PointerIn,color,showRings})
     <mesh 
     ref={meshRef} 
     scale={showRings? [1,1,1]:[1,2,1] }
-    onClick={handleDownload}
+    onClick={()=>{
+      setIsHover(true);
+      PointerIn();
+
+    }}
     onPointerEnter={()=>{
       setIsHover(true);
       PointerIn();

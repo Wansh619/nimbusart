@@ -16,15 +16,13 @@
             position: relative;
             color: var(--yellow-theme-main-color);
             font-weight: 700;
-            font-size: 45px;
-            transform: scale(2);
+            font-size: xx-large;
+            transform: scale(1);
             padding: 30px;
             letter-spacing: 2px;
             text-transform: uppercase;
             background: transparent;
-            
-
-
+            text-align: center;
         }
         .text:before,
         .text:after{
@@ -70,7 +68,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin: 100px;
+        margin: 25px;
         button{
             cursor: pointer;
             padding: 10px 70px;

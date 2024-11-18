@@ -23,52 +23,52 @@ const data=[
         to: '/resume'
     }
 ];
-const Menu= data.map((item,key)=> {
-    return(
-    <li key={key} className=" navbar__container__menu__item">
-        <Link className="navbar__container__menu__item__link" to={item.to}>
-                {item.label}
-        </Link>
-    </li>
-    );
-})
 
 const Navbar=()=>{
-
-      const [toggleIcon, setToggleIcon]= useState(false);
+    
+    const [toggleIcon, setToggleIcon]= useState(false);
       const [navIcon, setNavIcon]=useState(false);
-
+      
       function handleToggleIcon(){
-
-        setToggleIcon(!toggleIcon);
-      }
-      
-      function handleNavicon(){
-
-        setNavIcon(!navIcon);
-        // --yellow-theme-background-color: #000;
-        // --yellow-theme-main-color: #ffdd40;
-        // --yellow-theme-text-color:#ffffff;
-        // --yellow-theme-nav-background-color:yellow ;
-        // --yellow-theme-nav-text-color: #000;
-        if(!navIcon){
-
-            document.documentElement.style.setProperty('--yellow-theme-main-color', "#FFFFFF");
-            document.documentElement.style.setProperty('--yellow-theme-text-color', "#FFFFFF");
-            document.documentElement.style.setProperty('--yellow-theme-nav-background-color', "#FFFFFF");
+          
+          setToggleIcon(!toggleIcon);
         }
-        else{
-            document.documentElement.style.setProperty('--yellow-theme-main-color', "#ffdd40");
-            document.documentElement.style.setProperty('--yellow-theme-text-color', "#ffffff");
-            document.documentElement.style.setProperty('--yellow-theme-nav-background-color', "yellow");
-        }   
-
-
-      }
-
-      
-
-      const changePrimaryColor = (color) => {
+        
+        function handleNavicon(){
+            
+            setNavIcon(!navIcon);
+            // --yellow-theme-background-color: #000;
+            // --yellow-theme-main-color: #ffdd40;
+            // --yellow-theme-text-color:#ffffff;
+            // --yellow-theme-nav-background-color:yellow ;
+            // --yellow-theme-nav-text-color: #000;
+            if(!navIcon){
+                
+                document.documentElement.style.setProperty('--yellow-theme-main-color', "#FFFFFF");
+                document.documentElement.style.setProperty('--yellow-theme-text-color', "#FFFFFF");
+                document.documentElement.style.setProperty('--yellow-theme-nav-background-color', "#FFFFFF");
+            }
+            else{
+                document.documentElement.style.setProperty('--yellow-theme-main-color', "#ffdd40");
+                document.documentElement.style.setProperty('--yellow-theme-text-color', "#ffffff");
+                document.documentElement.style.setProperty('--yellow-theme-nav-background-color', "yellow");
+            }   
+            
+            
+        }
+        
+        
+        const Menu= data.map((item,key)=> {
+            return(
+            <li key={key} className=" navbar__container__menu__item">
+                <Link className="navbar__container__menu__item__link" to={item.to} onClick={handleToggleIcon}>
+                        {item.label}
+                </Link>
+            </li>
+            );
+        })
+        
+        const changePrimaryColor = (color) => {
         // Change the CSS variable value
         document.documentElement.style.setProperty('--primary-color', color);
       };

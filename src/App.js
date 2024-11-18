@@ -17,17 +17,17 @@ const location= useLocation();
     
     <div className="App">
 
-      {
-        renderParticleSim &&
-        <ParticlesComponent id="particles" />
-      }
 
       
-      <Navbar/>
 
 
       <div className='App__main-page-content '>
+      <Navbar/>
 
+      {
+        renderParticleSim &&
+        <ParticlesComponent className="particles" />
+      }
 
       <Routes>
         <Route index path='/' element={<Home  />}/>

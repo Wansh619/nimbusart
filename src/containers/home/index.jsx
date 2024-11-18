@@ -22,9 +22,9 @@ const Home =()=>{
             <section  id="home" className="home" >
                 <div className="home__wrapper" >
 
-                    <h1 className="text" data-text="Hi There,I'm Wansh">
+                    <div className="text" data-text="Hi There,I'm Wansh">
                     Hi There,I'm Wansh
-                    </h1>
+                    </div>
     
                 </div>
                 <Animate play duration={1.5} delay={1} 

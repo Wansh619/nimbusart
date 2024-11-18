@@ -1,6 +1,7 @@
 .navbar{
     background-color: var(--yellow-theme-nav-background-color);
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,7 @@
         display: flex;
         list-style: none;
         text-align: center;
-
+        color: var(--yellow-theme-nav-background-color);
 
         &__item{
             line-height: 40px;
@@ -63,6 +64,7 @@
 
 .nav-icon{
     display: none;
+    
 }
 
 @media only screen and (max-width:768px){
@@ -97,7 +99,7 @@
     .nav-icon{
         display: block;
         cursor: pointer;
-        color: var(--yellow-theme-main-color);
+        color: var(--yellow-theme-nav-text-color);
         padding-right: 20px;
     } 
 

@@ -10,14 +10,14 @@
     position: absolute;
     z-index: 1;
     flex-direction: row;
-    padding: 20px 50px;
+    padding: 20px 10px;
     box-sizing: border-box;
    
     
     &__navbar{
         width: 6%;
         background: var(--yellow-theme-main-color);
-       
+       box-sizing: content-box;
         align-items: center;
         padding: 10px;
 
@@ -107,7 +107,7 @@
         width: 70%;
         margin: 30px;
        color: var(--yellow-theme-main-color);
-       font-size: large;
+       font-size: medium;
 
 
         h2{

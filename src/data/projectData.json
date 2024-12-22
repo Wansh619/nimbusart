@@ -29,7 +29,7 @@
         },
         "Car price prediction":{
             "period":{
-                "from":"Sept 2023",
+                "from":"Sep 2023",
                 "to":"Dec 2023"
             },
             "content":"A machine learning project focused on predicting showroom prices based on vehicle specifications using multiple regression models. The project employs Python as the core language, with libraries like NumPy and Pandas to streamline data preprocessing. Scikit-learn is utilized for implementing and fine-tuning various regression algorithms, while Matplotlib provides detailed visualizations of model performance and data trends. The integration of OpenCV supports any image-based data processing, further enhancing the model's accuracy and interpretability. Through systematic analysis, this project showcases the potential of machine learning in accurately estimating pricing from diverse and complex data points.",
@@ -50,7 +50,7 @@
         },
         "Outpass":{
             "period":{
-                "from":"Sept 2023",
+                "from":"Sep 2023",
                 "to":"Oct 2023"
             },
             "content":"The Outpass app project is developed using Python and Django, designed to streamline the process of managing student requests for outside visits in an educational institute. The application mimics the traditional outpass system, providing a digital platform where students can apply for permission to leave campus for various reasons, such as internships, events, or personal matters.",

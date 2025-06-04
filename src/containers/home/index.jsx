@@ -37,8 +37,8 @@ const Home =()=>{
                 }}
                 >
 
-            <div onClick={navigateToContactMePage}className="home__contact-me">
-                <button>Hire me</button>
+            <div className="home__contact-me">
+                <button onClick={navigateToContactMePage}>Hire me</button>
                 <div className="home__contact-me__otherlink">
                 <Link className="home__contact-me__otherlink__link" to="https://www.linkedin.com/in/wansh-singh/">
                     <FaLinkedin size={15} className="home__contact-me__otherlink__link__icon"/>

@@ -42,6 +42,7 @@
             stroke: var(--yellow-theme-main-color);
             position: absolute;
             margin: auto;
+            z-index: -1;
         }
 
         form{

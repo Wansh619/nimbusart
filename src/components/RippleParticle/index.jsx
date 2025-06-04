@@ -9,7 +9,7 @@ import { Suspense, useCallback, useEffect, useMemo, useRef,useState } from 'reac
 
 
 
-
+const time_lap=20;
 
 const item = {
   hidden: { y: 20, opacity: 0 },
@@ -70,7 +70,7 @@ function Diamond({PointerIn,color,showRings})
 
   useFrame(() => {
     // console.log("DIAMOND USEFRAME");
-    setT(prevT => prevT + 40);
+    setT(prevT => prevT + time_lap);
     if (meshRef.current) {
       meshRef.current.rotation.y += 0.01;
       meshRef.current.position.y =15 + Math.sin(f*t)*a ;
@@ -143,7 +143,7 @@ function Points({color}) {
   }, [count, sep, graph]);
 
   useFrame(() => {
-    setT(prevT => prevT + 40);  // Increment t using state
+    setT(prevT => prevT + time_lap);  // Increment t using state
 
     const positionArray = bufferRef.current.array;
     let i = 0;

@@ -14,8 +14,8 @@ const Home =()=>{
     const navigate= useNavigate();
 
 
-    const navigateToContactMePage=()=>{
-        navigate("/contact_me");
+    const navigateToResume=()=>{
+        navigate("/resume");
     }
     return (
   
@@ -38,7 +38,7 @@ const Home =()=>{
                 >
 
             <div className="home__contact-me">
-                <button onClick={navigateToContactMePage}>Hire me</button>
+                <button onClick={navigateToResume}>Hire me</button>
                 <div className="home__contact-me__otherlink">
                 <Link className="home__contact-me__otherlink__link" to="https://www.linkedin.com/in/wansh-singh/">
                     <FaLinkedin size={15} className="home__contact-me__otherlink__link__icon"/>

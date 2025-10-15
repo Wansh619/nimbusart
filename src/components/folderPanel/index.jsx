@@ -44,24 +44,6 @@ const item = {
 // ============================================================
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function Icon({IconComponent,size}){
     return(
         <IconComponent size={size} />

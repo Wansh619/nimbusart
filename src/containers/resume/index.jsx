@@ -36,6 +36,7 @@ const Resume =()=>{
         console.log("folder panel triggered")
         setFolderpanel(null);
     }
+    console.log(experienceData)
     return (
         <div className="resume">
             <RippleParticle 

@@ -1,10 +1,11 @@
 {
     "filestruct": {
-        "ROOT": ["Internship", "Extra Curricular"],
-        "Internship": ["Data with D"],
+        "ROOT": [" Job Experience", "Extra Curricular"],
+        "Job Experience": ["Data with D","Innovaccer"],
         "Extra Curricular": ["GDSC AI/ML"],
         "GDSC AI/ML": [],
-        "Data with D": []
+        "Data with D": [],
+        "Innovaccer":[]
     },
     "filecontent": {
         "Data with D": {
@@ -22,6 +23,15 @@
             },
             "job_title": "LEAD",
             "content": "As the AI/ML Lead for the Google Developer Student Club, I drive initiatives to build a collaborative environment where students can explore, learn, and implement AI and machine learning concepts. I conduct workshops, organize study jams, and lead hands-on projects to help members develop foundational skills in machine learning and artificial intelligence. By fostering an inclusive and innovative community, I aim to bridge the gap between theoretical knowledge and practical application in AI/ML for students at all skill levels."
-        }
+        },
+               "Innovaccer": {
+            "period": {
+                "from": "July-2025",
+                "to": "Jan-2026"
+            },
+            "job_title": "Software Developer",
+            "content": "As a Software Development Engineer at Innovaccer, I worked on building and optimizing scalable web applications across both the frontend and backend. On the frontend, I utilized React.js and Webflow to design and develop interactive, user-friendly interfaces that enhanced usability and overall experience. On the backend, I implemented robust server-side logic using Flask and Django, focusing on creating efficient and maintainable APIs to support large-scale data-driven systems. In addition to web application development, I also developed and deployed Python-based automation tools and internal platforms that streamlined workflows for the marketing team. These automation solutions significantly improved operational efficiency by reducing manual work and optimizing recurring processes.Throughout my job, I strengthened my foundation in full-stack engineering, emphasizing API development, performance optimization, and scalable architecture design. My work focused on delivering reliable, production-ready solutions that contributed to smoother cross-team operations and improved overall system performance."
+        },
+        
     }
 }

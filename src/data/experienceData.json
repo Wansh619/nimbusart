@@ -31,7 +31,7 @@
             },
             "job_title": "Software Developer",
             "content": "As a Software Development Engineer at Innovaccer, I worked on building and optimizing scalable web applications across both the frontend and backend. On the frontend, I utilized React.js and Webflow to design and develop interactive, user-friendly interfaces that enhanced usability and overall experience. On the backend, I implemented robust server-side logic using Flask and Django, focusing on creating efficient and maintainable APIs to support large-scale data-driven systems. In addition to web application development, I also developed and deployed Python-based automation tools and internal platforms that streamlined workflows for the marketing team. These automation solutions significantly improved operational efficiency by reducing manual work and optimizing recurring processes.Throughout my job, I strengthened my foundation in full-stack engineering, emphasizing API development, performance optimization, and scalable architecture design. My work focused on delivering reliable, production-ready solutions that contributed to smoother cross-team operations and improved overall system performance."
-        },
+        }
         
     }
 }
